@@ -1,0 +1,78 @@
+FULL STACK & ARTIFICIAL INTELLIGENCE ENGINEER
+CARLA ALDABALDETRECU
+Node.js · Angular · Python · Tensorflow
+CONTACTO
+linkedin.com/in/carlaaldabalde
+📌 
+100% remotoDonostia / San Sebastián
+carla.aldabaldetrecu@gmail.com
+RESUMEN
+Graduada en Ingeniería Informática y con un master en Inteligencia Artificial me dedico al desarrollo de páginas web y de proyectos de Inteligencia Artificial. Estoy especializada en crear aplicaciones web con Nodejs y Angular, además de en el desarrollo de proyectos basados en Inteligencia Artificial utilizando Python con Tensorflow/Keras.
+APTITUDES
+Python 
+Tensorflow
+Pytorch
+Typescript
+NodeJS
+Angular
+PostgreSQL
+Express
+SCRUM/Agile
+RestAPI
+FastAPI
+C++ 
+VueJS
+PHP
+Git
+Docker
+Java
+WebRTC
+Laravel
+IDIOMAS
+Inglés: Nivel profesional (C2) - Proficiency certificate (CPE) de la Universidad de Cambridge.
+Español: Nativo
+FORMACIÓN
+09/2018-07/2020
+MÁSTER EN INTELIGENCIA ARTIFICIAL • UNIVERSIDAD INTERNACIONAL DE LA RIOJA
+Máster sobre IA que decidí dividirlo en dos años para poder trabajar y estudiar al mismo tiempo.
+09/2012-07/2016
+Grado en Ingeniería Informática • Universidad del País Vasco (EHU)
+Especialidad en Computación con algunos estudios cursados en la universidad KU Leuven en Bélgica el primer cuatrimestre del cuarto año.
+EXPERIENCIA
+01/2021 – ACTUAL (100% REMOTO)
+FULL STACK & ARTIFICIAL INTELLIGENCE ENGINEER • IRIS TECHNOLOGY SOLUTIONS 
+Diversos proyectos web y de Inteligencia Artificial con metodología SCRUM:
+•Desarrollo de páginas web modularizadas utilizando Angular para frontend, NodeJS en backend y PostgreSQL para la persistencia de datos.  
+•Diversos proyectos de la rama de visión artificial cuyo desarrollo he realizado en Python utilizando tanto Tensorflow como Pytorch, así como FastAPI para la comunicación backend – frontend y C++ para el desarrollo de la aplicación frontend.
+10/2016 – 01/2021
+PRODUCT MANAGER Y FULL STACK WEB DEVELOPER • INNOVAE
+Desarrollo de productos web para sector industrial y dirección de equipo:
+• Desarrollo de una aplicación web de administración para el mantenimiento de empresas del sector industrial usando PHP con Laravel Framework (backend) y VueJS (frontend). Base de datos utilizando PostgreSQL.
+• Directora de producto de una aplicación web basada en realidad aumentada aplicada a sistemas de videoconferencia (continuación del proyecto desarrollado durante las prácticas). Tecnologías usadas: NodeJS con framework Express a través de SSL y comunicación a través de Sockets para backend, PostgreSQL para la persistencia de los datos y WebRTC con HTML5, CSS3, Bootstrap, JQuery y JavaScript para frontend.
+CURSOS Y CERTIFICACIONES
+11/2025
+Protección de Datos en el Desarrollo de Plataformas Digitales, Apps y Webs (RGPD y LOPDGDD) • AENORConocimientos sobre normativa europea de protección de datos, derechos de los interesados y obligaciones legales.
+02/2023
+Kubernetes • IMAGINA FORMACIÓN
+Formación en orquestación de contenedores, despliegue, escalabilidad y gestión de aplicaciones en entornos cloud.
+05/2021
+Scrum Master/ Product Owner • XSFERA Agile Innovation S.L.Metodología ágil para la gestión de proyectos, trabajo en equipo, roles, eventos y mejora continua.
+PRÁCTICAS
+03/2020-05/2020
+DATA SCIENTIST EN PRÁCTICAS • EA SPORTS
+Analizar cómo de buenos son las APIs traductoras APIS (Azure, AWS...). Para ello, he realizado el procesamiento de datos y analizado los resultados obtenidos mediante diferentes métricas. Tecnologías: Python y Jupiter Notebook.
+05/2016-07/2016
+INGENIERA INFORMÁTICA EN PRÁCTICAS • INNOVAE
+Desarrollo de una aplicación web basada en la realidad aumentada aplicada a los sistemas de videoconferencia. Servicios API Rest:
+•  Backend: NodeJS con framework Express, encriptación y comunicación a través de Sockets.
+•  Frontend: Tecnología WebRTC con HTML5, CSS, Bootstrap, JQuery y JavaScript.
+• Persistencia de datos: Base de datos MySQL y migración a PostgreSQL.
+PROYECTOS ACADÉMICOS
+03/2020-07/2020
+MANTENIMIENTO PREDICTIVO PARA PREDECIR ERRORES EN LA MÁQUINA MAIN AIR COMPRESSOR
+Tecnologías: Python, Neural networks, Tensorflow y Keras.
+Resumen: El objetivo de este trabajo es la creación de un modelo predictivo para la predicción de errores en el control de los álabes de la máquina Main Air Compressor (MAC) mediante el uso de redes neuronales. Para alcanzar esa finalidad se ha entrenado el modelo con los datos recibidos de la máquina desde julio de 2016 hasta junio de 2019, donde encontramos tanto datos correctos como datos que producen el error previamente mencionado. Una vez el modelo sea entrenado y hayan sido aplicadas las métricas de evaluación de algoritmos de clasificación se podrá evaluar con qué probabilidad los datos recibidos en tiempo real producirán un error.
+04/2016-07/2016
+GENERACIÓN DE PATRONES DE COSTURA A MEDIDA MEDIANTE KINECT Y MAKEHUMAN
+Tecnologías: Kinect, MakeHuman, Matlab, Geogebra, GeogebraWeb, Threejs, Blender, NodeJS y Javascript.
+Proceso: Mediante la Kinect captar las medidas del cliente para poder adaptar el patrón y el maniquí a él/ella. Escoger el tipo de ropa del que se quiera imprimir un patrón en PDF. Este patrón puede ser adaptado a las medidas del cliente o generado según el tallaje europeo, generado con Geogebra. A su vez se muestra un maniquí con la ropa generada en Blender e importada a ThreeJs.

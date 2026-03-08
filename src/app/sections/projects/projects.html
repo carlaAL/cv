@@ -1,0 +1,20 @@
+<section
+  class="education"
+  @fadeUp
+  *ngIf="languageService.data().projects && languageService.data().projects?.length"
+>
+  <h2>
+    {{ languageService.currentLanguage() === 'es' ? 'Proyectos Académicos' : 'Academic Projects' }}
+  </h2>
+
+  <div class="timeline">
+    <div class="timeline-item" *ngFor="let item of languageService.data().projects">
+      <div class="period">{{ item.period }}</div>
+      <div class="content">
+        <h3>{{ item.degree }}</h3>
+        <h4>{{ item.institution }}</h4>
+        <p *ngIf="item.details">{{ item.details }}</p>
+      </div>
+    </div>
+  </div>
+</section>

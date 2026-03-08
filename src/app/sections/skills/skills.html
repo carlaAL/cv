@@ -1,0 +1,9 @@
+<section class="skills" @fadeUp>
+  <h2>{{ languageService.currentLanguage() === 'es' ? 'Habilidades' : 'Skills' }}</h2>
+
+  <div class="skills-grid">
+    <div class="skill-item" *ngFor="let skill of languageService.data().skills">
+      {{ skill }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+<header class="sticky-header">
+  <h1 class="sticky-name" [class.visible]="showStickyHeader">{{ languageService.data().personal.name }}</h1>
+
+  <div class="controls">
+    <button class="icon-btn" (click)="toggleTheme()">
+      🌗
+    </button>
+    <button class="icon-btn" (click)="language.toggleLanguage()">
+      {{ language.currentLanguage() === 'es' ? 'EN' : 'ES' }}
+    </button>
+    <button class="icon-btn" (click)="print()">
+      🖨️
+    </button>
+  </div>
+</header>
+
+<app-hero></app-hero>
+<app-experience></app-experience>
+<app-education></app-education>
+<app-projects></app-projects>
+<app-certifications></app-certifications>
+<app-skills></app-skills>
+<app-contact></app-contact>

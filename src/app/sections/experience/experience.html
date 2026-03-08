@@ -1,0 +1,14 @@
+<section class="experience" @fadeUp>
+  <h2>{{ languageService.currentLanguage() === 'es' ? 'Experiencia Profesional' : 'Professional Experience' }}</h2>
+
+  <div class="timeline">
+    <div class="timeline-item" *ngFor="let item of languageService.data().experience">
+      <div class="period">{{ item.period }}</div>
+      <div class="content">
+        <h3>{{ item.role }}</h3>
+        <h4>{{ item.company }}</h4>
+        <p *ngIf="item.description">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
