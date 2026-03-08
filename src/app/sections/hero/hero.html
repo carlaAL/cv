@@ -9,9 +9,31 @@
       <h1>{{ languageService.data().personal.name }}</h1>
       <h2>{{ languageService.data().personal.role }}</h2>
       <h3 class="especialization">{{ languageService.data().personal.especialization }}</h3>
-      <p>
+      <div class="summary-text">
         {{ languageService.data().personal.summary }}
-      </p>
+      </div>
+
+      <div class="hero-highlights">
+        <div class="highlight-column">
+          <h4>{{ languageService.currentLanguage() === 'es' ? 'Experiencia Destacada' : 'Key Experience' }}</h4>
+          <div class="highlight-item" *ngFor="let exp of languageService.data().experience.slice(0, 2)">
+            <span class="period" style="display: block; margin-bottom: 0.2rem;">{{ exp.period }}</span>
+            <span class="title" style="display: block;">
+              <strong>{{ exp.role }}</strong> <span class="at" style="margin: 0 0.3rem;">@</span>{{ exp.company }}
+            </span>
+          </div>
+        </div>
+        
+        <div class="highlight-column">
+          <h4>{{ languageService.currentLanguage() === 'es' ? 'Educación' : 'Education' }}</h4>
+          <div class="highlight-item" *ngFor="let edu of languageService.data().education.slice(0, 2)">
+            <span class="period" style="display: block; margin-bottom: 0.2rem;">{{ edu.period }}</span>
+            <span class="title" style="display: block;">
+              <strong>{{ edu.degree }}</strong> <span class="at" style="margin: 0 0.3rem;">@</span>{{ edu.institution }}
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="scroll-indicator">

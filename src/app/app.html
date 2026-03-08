@@ -2,14 +2,14 @@
   <h1 class="sticky-name" [class.visible]="showStickyHeader">{{ languageService.data().personal.name }}</h1>
 
   <div class="controls">
-    <button class="icon-btn" (click)="toggleTheme()">
-      🌗
+    <button class="icon-btn" (click)="toggleTheme()" title="Toggle Theme">
+      <span class="material-icons">brightness_6</span>
     </button>
-    <button class="icon-btn" (click)="language.toggleLanguage()">
-      {{ language.currentLanguage() === 'es' ? 'EN' : 'ES' }}
+    <button class="icon-btn" (click)="language.toggleLanguage()" title="Change Language" style="display: flex; align-items: center; gap: 4px;">
+      <span style="font-size: 0.9rem; ">{{ language.currentLanguage() === 'es' ? 'EN' : 'ES' }}</span>
     </button>
-    <button class="icon-btn" (click)="print()">
-      🖨️
+    <button class="icon-btn" (click)="print()" title="Print CV">
+      <span class="material-icons">print</span>
     </button>
   </div>
 </header>
