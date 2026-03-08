@@ -48,7 +48,7 @@ export const RESUME_DATA: { [key: string]: ResumeData } = {
       email: 'carla.aldabaldetrecu@gmail.com',
       handle: 'carlaaldabalde',
       linkedin: 'https://www.linkedin.com/in/carlaaldabalde',
-      github: '',
+      github: 'https://github.com/carlaAL/cv',
       remote: { text: '100% remoto (Donostia / San Sebastián)', url: 'https://www.google.com/maps/place/Donostia' },
       languages: [
         { name: 'Español', level: 'Nativo' },
@@ -164,7 +164,7 @@ export const RESUME_DATA: { [key: string]: ResumeData } = {
       email: 'carla.aldabaldetrecu@gmail.com',
       handle: 'carlaaldabalde',
       linkedin: 'https://www.linkedin.com/in/carlaaldabalde',
-      github: '',
+      github: 'https://github.com/carlaAL/cv',
       remote: { text: '100% Remote (Donostia / San Sebastián)', url: 'https://www.google.com/maps/place/Donostia' },
       languages: [
         { name: 'Spanish', level: 'Native' },
