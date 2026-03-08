@@ -116,57 +116,36 @@
     max-width: 100% !important;
     margin: 0 !important;
 
+    h2 {
+      display: none !important;
+    }
+
     h3 {
       color: inherit !important;
     }
 
     .contact-info {
-      display: flex !important;
-      flex-wrap: nowrap !important;
-      gap: 0.5rem !important;
-      justify-content: space-between !important;
-      margin-bottom: 1rem !important;
-
-      .contact-item {
-        display: inline-flex !important;
-        align-items: center !important;
-        padding: 0 !important;
-        border: none !important;
-        background: none !important;
-        color: black !important;
-        box-shadow: none !important;
-        font-size: 0.7rem !important;
-        white-space: nowrap !important;
-        text-decoration: none !important;
-
-        &::after {
-          content: " (" attr(href) ")" !important;
-          font-size: 0.6rem !important;
-          color: #666 !important;
-        }
-
-        // Hide the icon/emoji in print to save space if needed,
-        // but user didn't ask for it. Let's keep it for now.
-      }
+      display: none !important;
     }
 
     .language-list {
-      display: block !important;
+      display: inline !important;
 
       .language-item {
         border: none !important;
-        padding: 0.1rem 0 !important;
+        padding: 0 !important;
         background: none !important;
         color: black !important;
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: center !important;
-        flex-wrap: wrap !important;
+        display: inline !important;
         font-size: 0.85rem !important;
+
+        &:not(:last-child)::after {
+          content: "  |  ";
+        }
 
         strong {
           font-size: 0.85rem !important;
-          margin-right: 0.3rem !important;
+          margin-right: 0.2rem !important;
         }
 
         span {
@@ -178,7 +157,7 @@
           display: inline !important;
           font-size: 0.85rem !important;
           color: black !important;
-          margin-left: 0.3rem !important;
+          margin-left: 0.2rem !important;
           border: none !important;
           padding-top: 0 !important;
           margin-top: 0 !important;

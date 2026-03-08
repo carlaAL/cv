@@ -164,9 +164,11 @@
     }
 
     .hero-image {
-      display: block;
-      flex: 0 0 80px;
+      display: flex !important;
+      flex-direction: column !important;
+      flex: 0 0 200px !important;
       margin: 0 !important;
+      align-items: center !important;
 
       .image-wrapper {
         width: 80px;
@@ -185,6 +187,36 @@
 
         &::after {
           display: none;
+        }
+      }
+
+      .print-contact {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.2rem !important;
+        margin-top: 0.5rem !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+
+        .print-contact-item {
+          display: inline-flex !important;
+          align-items: center !important;
+          gap: 0.25rem !important;
+          color: #333 !important;
+          text-decoration: none !important;
+          font-size: 0.7rem !important;
+          white-space: nowrap !important;
+
+          svg {
+            width: 0.6rem !important;
+            height: 0.6rem !important;
+            fill: #333 !important;
+            flex-shrink: 0 !important;
+          }
+
+          &::after {
+            content: none !important;
+          }
         }
       }
     }
@@ -444,7 +476,8 @@
 
   }
 
-  .print-only-links {
+  .print-only-links,
+  .print-contact {
     display: none;
   }
 

@@ -157,7 +157,16 @@
 
 
   /* Target component hosts directly to remove spacing */
-  app-hero, app-experience, app-education, app-skills, app-contact {
+  app-hero, app-experience, app-education, app-skills, app-projects, app-certifications {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    page-break-after: auto;
+    page-break-before: auto;
+  }
+
+  /* Contact info is now embedded inside hero for print, but keep the languages section */
+  app-contact {
     display: block !important;
     margin: 0 !important;
     padding: 0 !important;
