@@ -259,6 +259,26 @@
       break-after: avoid !important;
     }
 
+    .print-only-links {
+      display: block !important;
+      margin-top: 0.5rem;
+
+      a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #333;
+        text-decoration: none;
+        font-size: 0.9rem;
+
+        svg {
+          width: 14px;
+          height: 14px;
+          fill: #333;
+        }
+      }
+    }
+
     .hero-highlights {
       margin-top: 0.5rem !important;
       gap: 1rem !important;
@@ -495,29 +515,5 @@
     }
   }
 
-  @media print {
-    .scroll-indicator {
-      display: none !important;
-    }
-    
-    .print-only-links {
-      display: block !important;
-      margin-top: 0.5rem;
-      
-      a {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        color: #333;
-        text-decoration: none;
-        font-size: 0.9rem;
-        
-        svg {
-          width: 14px;
-          height: 14px;
-          fill: #333;
-        }
-      }
-    }
-  }
+
 }
