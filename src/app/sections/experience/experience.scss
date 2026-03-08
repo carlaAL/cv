@@ -1,10 +1,18 @@
 :host {
   display: block;
   background: #323232;
+
+  @media print {
+    background: none !important;
+  }
 }
 
 :host-context(body.light) {
   background: #f0f9ff;
+
+  @media print {
+    background: none !important;
+  }
 }
 
 .experience {
@@ -147,7 +155,7 @@
       padding-left: 0 !important;
 
       .timeline-item {
-        margin-bottom: 1rem !important;
+        margin-bottom: 0.5rem !important;
         padding: 0 !important;
 
         &::before {

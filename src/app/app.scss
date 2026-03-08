@@ -111,12 +111,12 @@
   }
 
   section {
-    break-inside: avoid;
-    page-break-inside: avoid;
     padding: 0 !important;
     margin: 0 !important;
     opacity: 1 !important;
     transform: none !important;
+    page-break-before: auto;
+    break-before: auto;
   }
 
   /* Ensure background graphics are printed if user enables them, but generally force clean look */
@@ -127,24 +127,32 @@
 
   h2, h3 {
     color: black !important;
-    margin-top: 0.5rem !important;
+    margin-top: 0.8rem !important;
     margin-bottom: 0.25rem !important;
     page-break-after: avoid;
+    font-weight: 600 !important;
   }
 
   h2 {
-    font-size: 1.5rem !important;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.25rem;
+    font-size: 1.3rem !important;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 
-  p, li {
-    font-size: 0.9rem !important;
-    line-height: 1.3 !important;
+  p, li, span, div {
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+    color: #222 !important;
+  }
+
+  .period {
+    color: #333 !important;
   }
 
 
@@ -154,6 +162,7 @@
     margin: 0 !important;
     padding: 0 !important;
     page-break-after: auto;
+    page-break-before: auto;
   }
 }
 

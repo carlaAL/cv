@@ -1,10 +1,18 @@
 :host {
   display: block;
   background: #323232;
+
+  @media print {
+    background: none !important;
+  }
 }
 
 :host-context(body.light) {
   background: #f0f9ff;
+  
+  @media print {
+    background: none !important;
+  }
 }
 
 .skills {
@@ -60,10 +68,11 @@
       gap: 0.5rem !important;
 
       .skill-item {
-        border: 1px solid #ccc !important;
-        padding: 0.25rem 0.5rem !important;
+        border: 1px solid #ddd !important;
+        padding: 0.1rem 0.4rem !important;
         background: none !important;
-        color: black !important;
+        color: #333 !important;
+        font-size: 0.8rem !important;
         box-shadow: none !important;
       }
     }
@@ -79,7 +88,6 @@
 
     .skills-grid {
       gap: 0.75rem;
-      justify-content: flex-start;
     }
 
     .skill-item {

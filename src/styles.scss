@@ -25,6 +25,10 @@ body.light {
   color: var(--text);
 }
 
+@page {
+  margin: 2cm 1.5cm 1.5cm 1.5cm;
+}
+
 @media print {
   body {
     background: white;
