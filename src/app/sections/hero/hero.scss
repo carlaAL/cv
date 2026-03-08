@@ -306,42 +306,65 @@
   }
 
   @media (max-width: 992px) {
+    padding-top: 6rem;
+    
     .hero-content {
-      flex-direction: row;
-      text-align: left;
+      flex-direction: column;
+      text-align: center;
       gap: 1.5rem;
       align-items: center;
     }
 
     .hero-text {
-      text-align: left;
+      text-align: center;
+      
       h1 {
         font-size: 2rem;
         margin-bottom: 0.2rem;
+        text-align: center;
       }
       h2 {
         font-size: 1.2rem;
         margin-bottom: 0.2rem;
+        text-align: center;
       }
       h3.especialization {
         font-size: 1rem;
         margin-bottom: 0.5rem;
+        text-align: center;
       }
       .summary-text {
         color: var(--text-secondary);
         font-size: 0.95rem;
         line-height: 1.4;
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        text-align: center;
+      }
+      
+      .hero-highlights {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
       }
     }
 
+    .hero-image {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: -1rem;
+    }
+
     .image-wrapper {
-      width: 100px;
-      height: 100px;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+      animation: none !important;
+      transform: none !important;
+      
+      &:hover {
+        transform: none !important;
+      }
     }
   }
 
