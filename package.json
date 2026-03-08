@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "cv",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,11 +7,11 @@
     "start:host": "ng serve --host 0.0.0.0",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "build:gh": "ng build --configuration production --base-href /portfolio/",
-    "deploy": "npm run build:gh && cp dist/portfolio/browser/index.html dist/portfolio/browser/404.html && npx gh-pages -d dist/portfolio/browser",
+    "build:gh": "ng build --configuration production --base-href /cv/",
+    "deploy": "npm run build:gh && cp dist/cv/browser/index.html dist/cv/browser/404.html && npx gh-pages -d dist/cv/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:portfolio": "node dist/portfolio/server/server.mjs"
+    "serve:ssr:cv": "node dist/cv/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,

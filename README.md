@@ -1,10 +1,10 @@
 # Professional Portfolio & Interactive Resume
 
-A modern, high-performance professional portfolio and interactive resume built with **Angular 21**. Designed for developers, featuring multi-language support, theme customization, and advanced print optimization.
+A modern, high-performance professional cv and interactive resume built with **Angular 21**. Designed for developers, featuring multi-language support, theme customization, and advanced print optimization.
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://asanchez156.github.io/portfolio/)
+[View Live Portfolio](https://carlaAL.github.io/cv)
 
 ## ✨ Key Features
 
@@ -29,8 +29,8 @@ A modern, high-performance professional portfolio and interactive resume built w
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/asanchez156/portfolio.git
-   cd portfolio
+   git clone https://github.com/carlaAL/cv.git
+   cd cv
    ```
 
 2. **Install dependencies**:
@@ -71,4 +71,4 @@ This script will:
 
 ## 📄 License
 
-This project is for personal use as a professional portfolio.
+This project is for personal use as a professional cv.
